@@ -19,7 +19,7 @@ tags:
 
 原标题：治理有关新型肺炎的谣言问题，这篇文章说清楚了!
 
-转载自：最高人民法院官方微博。来源：人民法院新闻传媒总社。有删改。侵权联系 tresol@163.com 。[参阅原文](https://weibo.com/ttarticle/p/show?id=2309404465698775629865&mark_id=999_reallog_mark_ad%3A999|WeiboADNatural)
+转载自：最高人民法院官方微博。来源：人民法院新闻传媒总社。有删改。侵权联系 tresol@163.com 。[参阅原文](https://weibo.com/ttarticle/p/show?id=2309404465698775629865&mark_id=999_reallog_mark_ad%3A999)
 
 ### 正文
 

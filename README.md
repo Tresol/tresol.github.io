@@ -14,7 +14,13 @@
 
 [GitHub网站及其开源项目](https://github.com)，为我的博客提供了自由开放的平台；
 
-[MYSELF](https://tresol.github.io)，能够坚持下来，没有半途而废。
+[Myself](https://tresol.github.io)，能够坚持下来，没有半途而废。
+
+# 欢迎指正
+
+本人小白，有错误或值得改正请各位大佬多多指正！
+
+联系方式：tresol@163.com
 
 # 欢迎Fork我的项目
 

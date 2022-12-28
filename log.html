@@ -7,8 +7,8 @@ header-mask: 0.3
 ---
 
 <div class="zh post-container">
-    {% capture about_zh %}{% include update.md %}{% endcapture %}
-    {{ about_zh | markdownify }}
+    {% capture update %}{% include log/update.md %}{% endcapture %}
+    {{ update | markdownify }}
 </div>
 
 {% if site.disqus_username %}

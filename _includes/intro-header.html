@@ -46,7 +46,12 @@
                     <h1>{{ page.title }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
-                    <span class="meta">{% if page.type == '1' %} 原创：由 {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} 转载：由 {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}{% endif %} 在 {{ page.date | date: "%Y" }}年 {{ page.date | date: "%m" }}月 {{ page.date | date: "%-d" }}日发布</span>
+                    <span class="meta">
+                        {% if page.original == True %} 
+                            原创：由 {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
+                        {% else %}
+                            转载：转载自{{ page.original_author }} ,由 {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
+                        {% endif %} 在 {{ page.date | date: "%Y" }}年 {{ page.date | date: "%m" }}月 {{ page.date | date: "%-d" }}日发布</span>
                 </div>
             </div>
         </div>

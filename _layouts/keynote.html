@@ -21,7 +21,15 @@ layout: default
 
 				{{ content }}
 
-                <hr style="visibility: hidden;">
+		<p><b>Tresol Blog</b> 博客标题：{{ page.title }} - {{ page.subtitle }}；作者：{% if page.original != True %}{{ page.original_author }}{% else %}{{ page.author }} {% endif %} {% if page.original != True %} 转载： {{ page.author }}{% endif %} 。</p>
+		<br>
+		{% if page.original == True %}
+		    <p>本文为原创文章。未经作者书面许可，禁止转载。如果已获得许可，转载时请附上本段文字。</p>
+		{% else %}
+		    <p>本文为转载文章。如需转载，请咨询原作者。</p>
+		{% endif %}
+		<p>本文链接：{{ page.url | prepend: site.baseurl | replace: '//', '/' }}</p>
+		<hr style="visibility: hidden;">
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">

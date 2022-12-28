@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:         对谣言的思考
-subtitle:   高考中对谣言话题的分析
-date:        2022-12-25
-author:    Tresol
-originalauthor:    唐兴华
-header-img: "img/img7.jpg"
-catalog: true
+layout:             post
+title:              对谣言的思考
+subtitle:           高考中对谣言话题的分析
+date:               2022-12-25
+author:             Tresol
+original:           False
+original_author:    唐兴华
+header-style:       text
+catalog:            true
 tags:
     - 高考语文
     - 高考
